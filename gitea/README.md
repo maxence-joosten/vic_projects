@@ -73,4 +73,4 @@ Server Domain: Set to the server's IP address or fully qualified domain name.
 
 - **Server Domain**: Set to the server's IP address or fully qualified domain name.
 - **Gitea base URL**: `http://<server-ip>:8080`
-- Administrator account: Expand the bottom section to set the primary admin credentials to prevent automatic admin assignment to the first registered user.
+- **Administrator account**: Expand the bottom section to set the primary admin credentials to prevent automatic admin assignment to the first registered user.
