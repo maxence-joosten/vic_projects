@@ -1,0 +1,15 @@
+---
+- name: Initial System Verification
+  hosts: almaservers
+  gather_facts: true
+  tasks:
+    - name: Retrieve system uptime
+      ansible.builtin.command: uptime
+      register: uptime_output
+      changed_when: false
+
+    - name: Display system information
+      ansible.builtin.debug:
+        msg: 
+          - "Operating System: {{ ansible_facts['distribution'] }} {{ ansible_facts['distribution_version'] }}"
+          - "Current Uptime: {{ uptime_output.stdout }}"
