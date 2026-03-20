@@ -1,6 +1,6 @@
 # README
 
-This repository contains documentation for projects completed during the VIC program at HOGENT.
+This repository contains documentation for projects completed during my time at [VIC](https://vichogent.be/) at HOGENT.
 
 ---
 
@@ -14,9 +14,13 @@ This repository contains documentation for projects completed during the VIC pro
 
 ## Repository Structure
 
-.
+```text
+├── ansible/
+│   ├── 01-system-check.yml
+│   └── inventory.ini
 ├── gitea/
 └── README.md
+```
 
 ---
 
