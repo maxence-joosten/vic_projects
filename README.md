@@ -1,8 +1,25 @@
 # README
 
-In this repo you will find all documentation of the projects I did in [VIC](https://vichogent.be) at HOGENT. 
+This repository contains documentation for projects completed during the VIC program at HOGENT.
+
+---
 
 ## Projects
 
-1. Gitea
+| Project | Description | Technologies | Directory |
+|--------|------------|--------------|-----------|
+| Gitea | Setup of a self-hosted Git service with configuration and documentation | Docker, Linux | [`/gitea`](./gitea) |
 
+---
+
+## Repository Structure
+
+.
+├── gitea/
+└── README.md
+
+---
+
+## Notes
+
+Each project directory contains its own documentation, configuration steps, and relevant files.
