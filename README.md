@@ -15,10 +15,14 @@ This repository contains documentation for projects completed during my time at 
 ## Repository Structure
 
 ```text
-├── ansible/
-│   ├── 01-system-check.yml
-│   └── inventory.ini
-├── gitea/
+.
+├── ansible
+│   ├── 01-system-check.yml
+│   ├── 02-install-packages.yml
+│   └── inventory.ini
+├── gitea
+│   ├── docker-compose.yml
+│   └── README.md
 └── README.md
 ```
 
