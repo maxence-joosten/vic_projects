@@ -6,9 +6,11 @@ This repository contains documentation for projects completed during my time at 
 
 ## Projects
 
+
 | Project | Description | Technologies | Directory |
 |--------|------------|--------------|-----------|
 | Gitea | Setup of a self-hosted Git service with configuration and documentation | Docker, Linux | [`/gitea`](./gitea) |
+| Ansible | Intro into Ansible (server provisioning, verification, ...) | Ansible, Linux | [`/ansible`](./ansible) |
 
 ---
 
