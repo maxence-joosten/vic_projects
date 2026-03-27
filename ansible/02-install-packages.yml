@@ -1,0 +1,26 @@
+---
+
+- name: Server Provisioning
+  hosts: almaservers
+  become: true
+  tasks:
+    - name: Enable EPEL repository
+      ansible.builtin.dnf:
+        name: epel-release
+        state: present
+        update_cache: true
+
+    - name: Install system utilities
+      ansible.builtin.dnf:
+        name: ["htop", "fastfetch", "curl"]
+        state: present
+        update_cache: true
+
+    - name: Run fastfetch
+      ansible.builtin.command: fastfetch
+      register: fastfetch_output
+      changed_when: false
+
+    - name: Display fastfetch output
+      ansible.builtin.debug:
+        msg: "{{ fastfetch_output.stdout_lines }}"
